@@ -4,6 +4,8 @@ import { useState } from 'react'
 import LoggerComponenets from './components/LoggerComponenets'
 import TimmerComponent from './components/TimmerComponent.jsx'
 import DataFetcher from './components/DataFetcher.jsx'
+import ResizeComponent from './components/ResizeComponent.jsx'
+import MultiEffectComponent from './components/MultiEffectComponent.jsx'
 
 function App() {
   // first -> The first Effect or the side Effect
@@ -64,10 +66,14 @@ function App() {
   return (
     <>
 
-    <LoggerComponenets />
+    {/* <LoggerComponenets />
     {/* <TimmerComponent /> */}
+{/* 
+    <DataFetcher /> */}
+    {/* <ResizeComponent /> */} 
+    <MultiEffectComponent />
 
-    <DataFetcher />
+      {/* <h1>Count: {count}</h1>
       {/* <h1>useEffect Example</h1>
       <button onClick={handleClick}>Click Me</button>
       count is : {count} */}
